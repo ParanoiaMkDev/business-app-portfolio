@@ -8,9 +8,11 @@ A Spanish-language, responsive portfolio with three interactive **fictional busi
 
 | Demo | Screens | Try this |
 | --- | --- | --- |
-| [Bodega](https://paranoiamkdev.github.io/business-app-portfolio/bodega/) | Overview, inventory, point of sale, sales | Sell two products, see stock decrease, replenish inventory, edit/add a product and inspect a sale. |
-| [Turno](https://paranoiamkdev.github.io/business-app-portfolio/turno/) | Agenda, customers, services, overview | Book an appointment, try a conflicting time, complete/cancel an appointment and manage customers/services. |
-| [Trazo](https://paranoiamkdev.github.io/business-app-portfolio/trazo/) | Overview, quotations, orders, customers | Build a quotation, change quantities/discount, mark it sent (simulated), accept it and advance the linked order. |
+| [Sistema de gestión de inventario y ventas](https://paranoiamkdev.github.io/business-app-portfolio/bodega/) | Overview, inventory, point of sale, sales | Sell two products, see stock decrease, replenish inventory, edit/add a product and inspect a sale. |
+| [Sistema de gestión de citas y servicios](https://paranoiamkdev.github.io/business-app-portfolio/turno/) | Agenda, customers, services, overview | Book an appointment, try a conflicting time, complete/cancel an appointment and manage customers/services. |
+| [Sistema de gestión de pedidos](https://paranoiamkdev.github.io/business-app-portfolio/trazo/) | Overview, quotations, orders, customers | A fictional sign/print workshop: quote materials and work, apply a discount, accept a proposal and advance the linked job through production to delivery. |
+
+Each demo includes an optional **Ayuda** guided walkthrough. It explains controls and navigates between screens without creating, changing or resetting records. It is repeatable, keyboard-dismissable with Escape, and does not add tracking or a backend. Original route names remain for stable existing links.
 
 All initial businesses, names, contacts, products and transactions are fictional. Amounts use Nicaraguan córdobas (`C$`). A visible demo notice appears in each app. There are no real payments, reservations, messages, fiscal invoices or business integrations. The dashboard weekly chart is explicitly illustrative, not calculated analytics. The portfolio inquiry dialog prepares a local text summary; it does not send a message.
 
@@ -46,7 +48,8 @@ This site is a static portfolio and product demonstration, not a live commercial
 - `assets/portfolio.mjs`: local project-inquiry summary.
 - `assets/demo.mjs`: app screens, interactions and fictional business labels.
 - `assets/model.mjs`: seeded data and pure business calculations.
-- `assets/demo.css`: shared UI system with blue Bodega, warm Turno and forest Trazo themes.
+- `assets/demo.css`: restrained shared business-software UI, with subtle per-demo accent colors.
+- `assets/tutorial.mjs`: UI-only, accessible walkthroughs for the three demos.
 - `bodega/`, `turno/`, `trazo/`: independent static app entry points.
 
 **Forma** is the working portfolio brand, not a claim about an established company. Replace it and the local inquiry flow with your actual business identity/contact method before presenting it as a finished service website. No invented client testimonials, client counts or completed-project claims are included. The three apps are labeled conceptual demonstrations, not commissioned customer work. Marketday source, data and credentials are not included.
