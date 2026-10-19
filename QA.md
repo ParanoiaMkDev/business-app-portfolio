@@ -24,4 +24,6 @@ Scope is a representative interactive prototype check, not exhaustive testing of
 
 Repository target: https://github.com/ParanoiaMkDev/business-app-portfolio . Static GitHub Pages publishing uses main/root and relative assets/hash navigation. Credentials are supplied by existing Git Credential Manager and never included in source, shell arguments or logs. No Marketday files, receipt data, Firebase credentials or local private artifacts are part of this repository.
 
-GitHub publication/live URL verification is recorded below when complete.
+Initial application commit `211c17c68d7a9ad53c44444d7ec47b35b3ad93e6` was pushed to the new public repository. GitHub Pages was enabled with main/root; native status and latest build both returned **built**, no build error, for that exact commit.
+
+Public URL: https://paranoiamkdev.github.io/business-app-portfolio/ . Actual Brave navigation verified the live landing page, all three demo links with the correct project-path prefix, all three app modules rendering their expected headings/four navigation sections/demo notices, and working back-to-portfolio links. Browser error logs were empty. The deliverable browser tab was left on the public portfolio; temporary viewport override was reset. Local preview server was stopped after verification. This publication note is a documentation-only follow-up to the application commit; no application files changed after the accepted build.
