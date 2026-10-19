@@ -1,3 +1,5 @@
+import {featureMarkup} from './features.mjs';
+document.querySelectorAll('[data-demo-scope]').forEach(target=>{target.innerHTML=featureMarkup(target.dataset.demoScope);});
 const dialog=document.querySelector('#brief-dialog'),form=document.querySelector('#brief-form'),result=document.querySelector('#brief-result');
 let opener;
 document.querySelectorAll('[data-brief]').forEach(button=>button.addEventListener('click',()=>{opener=button;form.hidden=false;result.hidden=true;document.querySelector('#copy-status').textContent='';dialog.showModal();}));

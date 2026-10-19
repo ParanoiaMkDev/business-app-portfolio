@@ -64,3 +64,5 @@ Original implementation inspired by the *ideas and visual patterns* in:
 - [SB Admin 2](https://github.com/StartBootstrap/startbootstrap-sb-admin-2)
 
 No code, libraries, fonts, photos or other assets were copied or bundled from these repositories. All interface graphics are local CSS or inline SVG. This project's original code is MIT licensed; see [LICENSE](LICENSE). Review individual licenses if you later introduce third-party components (a project's core license does not necessarily cover all bundled charting/assets).
+
+These references are portfolio/dashboard UI templates, not complete inventory, appointment or order-management systems. The business workflows and scope descriptions here are original. Each landing card and demo now distinguishes working browser-local features from optional future project ideas. `assets/features.mjs` is their single shared copy source; proposed purchases, notifications, payments, attachments and similar additions are not implemented or promised integrations.
