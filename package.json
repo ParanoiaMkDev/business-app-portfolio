@@ -1,0 +1,12 @@
+{
+  "name": "business-app-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A static Spanish-language portfolio with three interactive fictional business demos.",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "check": "node --check assets/demo.mjs && node --check assets/model.mjs && node --check assets/portfolio.mjs && node scripts/check-static.mjs && node --test tests/model.test.mjs"
+  },
+  "license": "MIT"
+}
